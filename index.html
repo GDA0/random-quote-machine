@@ -52,7 +52,39 @@
 				</div>
 			</nav>
 		</header>
-		<main class="flex-grow-1"></main>
+		<main
+			class="flex-grow-1 d-flex align-items-center justify-content-center p-3"
+		>
+			<div
+				class="container rounded border border-2 d-flex flex-column p-3 bg-white"
+				id="quote-box"
+				style="max-width: 540px; min-height: 40vh"
+			>
+				<figure class="text-center flex-grow-1">
+					<blockquote class="blockquote">
+						<p id="text">
+							<i class="bi bi-quote"></i>A well-known quote,
+							contained in a blockquote element.
+						</p>
+					</blockquote>
+					<figcaption class="blockquote-footer" id="author">
+						Someone famous
+					</figcaption>
+				</figure>
+				<div class="controls d-flex gap-2 justify-content-end">
+					<div class="share">
+						<a class="btn btn-primary" href="" id="tweet-quote"
+							>Tweet</a
+						>
+					</div>
+					<div class="new-quote">
+						<button class="btn btn-primary" id="new-quote">
+							New Quote
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
 		<footer class="container text-center fw-medium text-secondary">
 			<p>
 				&copy;
